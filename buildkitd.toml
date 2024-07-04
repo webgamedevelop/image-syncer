@@ -1,0 +1,6 @@
+debug = true
+insecure-entitlements = [ "network.host", "security.insecure" ]
+
+[registry."core.harbor.domain"]
+    ca=["harbor-ca.crt"]
+    insecure=true

@@ -1,0 +1,4 @@
+expose:
+  ingress:
+    hosts:
+      core: core.harbor.domain
